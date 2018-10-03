@@ -1,9 +1,12 @@
 {
-  "name": "react-big-calendar",
+  "name": "@truehome/react-big-calendar",
   "version": "0.20.0",
   "description": "Calendar! with events",
   "author": "Jason Quense <monastic.panic@gmail.com>",
-  "repository": "intljusticemission/react-big-calendar",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omar-amezquita/react-big-calendar.git"
+  },
   "license": "MIT",
   "main": "lib/index.js",
   "style": "lib/css/react-big-calendar.css",
@@ -117,5 +120,14 @@
   },
   "resolutions": {
     "babel-core": "7.0.0-bridge.0"
+  },
+  "bugs": {
+    "url": "https://github.com/omar-amezquita/react-big-calendar/issues"
+  },
+  "homepage": "https://github.com/omar-amezquita/react-big-calendar#readme",
+  "directories": {
+    "example": "examples",
+    "lib": "lib",
+    "test": "test"
   }
 }
